@@ -1,0 +1,9 @@
+A:\Projects\csvToDatabase\api\csvToDatabase\core\bin\Debug\netcoreapp3.1\core.deps.json
+A:\Projects\csvToDatabase\api\csvToDatabase\core\bin\Debug\netcoreapp3.1\core.dll
+A:\Projects\csvToDatabase\api\csvToDatabase\core\bin\Debug\netcoreapp3.1\core.pdb
+A:\Projects\csvToDatabase\api\csvToDatabase\core\obj\Debug\netcoreapp3.1\core.csprojAssemblyReference.cache
+A:\Projects\csvToDatabase\api\csvToDatabase\core\obj\Debug\netcoreapp3.1\core.AssemblyInfoInputs.cache
+A:\Projects\csvToDatabase\api\csvToDatabase\core\obj\Debug\netcoreapp3.1\core.AssemblyInfo.cs
+A:\Projects\csvToDatabase\api\csvToDatabase\core\obj\Debug\netcoreapp3.1\core.csproj.CoreCompileInputs.cache
+A:\Projects\csvToDatabase\api\csvToDatabase\core\obj\Debug\netcoreapp3.1\core.dll
+A:\Projects\csvToDatabase\api\csvToDatabase\core\obj\Debug\netcoreapp3.1\core.pdb

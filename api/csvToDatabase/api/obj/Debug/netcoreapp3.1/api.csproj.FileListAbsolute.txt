@@ -1,0 +1,16 @@
+A:\Projects\csvToDatabase\api\csvToDatabase\api\bin\Debug\netcoreapp3.1\api.deps.json
+A:\Projects\csvToDatabase\api\csvToDatabase\api\bin\Debug\netcoreapp3.1\api.dll
+A:\Projects\csvToDatabase\api\csvToDatabase\api\bin\Debug\netcoreapp3.1\api.pdb
+A:\Projects\csvToDatabase\api\csvToDatabase\api\bin\Debug\netcoreapp3.1\business.dll
+A:\Projects\csvToDatabase\api\csvToDatabase\api\bin\Debug\netcoreapp3.1\core.dll
+A:\Projects\csvToDatabase\api\csvToDatabase\api\bin\Debug\netcoreapp3.1\data.dll
+A:\Projects\csvToDatabase\api\csvToDatabase\api\bin\Debug\netcoreapp3.1\business.pdb
+A:\Projects\csvToDatabase\api\csvToDatabase\api\bin\Debug\netcoreapp3.1\data.pdb
+A:\Projects\csvToDatabase\api\csvToDatabase\api\bin\Debug\netcoreapp3.1\core.pdb
+A:\Projects\csvToDatabase\api\csvToDatabase\api\obj\Debug\netcoreapp3.1\api.csprojAssemblyReference.cache
+A:\Projects\csvToDatabase\api\csvToDatabase\api\obj\Debug\netcoreapp3.1\api.AssemblyInfoInputs.cache
+A:\Projects\csvToDatabase\api\csvToDatabase\api\obj\Debug\netcoreapp3.1\api.AssemblyInfo.cs
+A:\Projects\csvToDatabase\api\csvToDatabase\api\obj\Debug\netcoreapp3.1\api.csproj.CoreCompileInputs.cache
+A:\Projects\csvToDatabase\api\csvToDatabase\api\obj\Debug\netcoreapp3.1\api.csproj.CopyComplete
+A:\Projects\csvToDatabase\api\csvToDatabase\api\obj\Debug\netcoreapp3.1\api.dll
+A:\Projects\csvToDatabase\api\csvToDatabase\api\obj\Debug\netcoreapp3.1\api.pdb

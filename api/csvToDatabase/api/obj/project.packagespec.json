@@ -1,0 +1,71 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "A:\\Projects\\csvToDatabase\\api\\csvToDatabase\\api\\api.csproj",
+    "projectName": "api",
+    "projectPath": "A:\\Projects\\csvToDatabase\\api\\csvToDatabase\\api\\api.csproj",
+    "outputPath": "A:\\Projects\\csvToDatabase\\api\\csvToDatabase\\api\\obj\\",
+    "projectStyle": "PackageReference",
+    "originalTargetFrameworks": [
+      "netcoreapp3.1"
+    ],
+    "sources": {
+      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "projectReferences": {
+          "A:\\Projects\\csvToDatabase\\api\\csvToDatabase\\business\\business.csproj": {
+            "projectPath": "A:\\Projects\\csvToDatabase\\api\\csvToDatabase\\business\\business.csproj"
+          },
+          "A:\\Projects\\csvToDatabase\\api\\csvToDatabase\\data\\data.csproj": {
+            "projectPath": "A:\\Projects\\csvToDatabase\\api\\csvToDatabase\\data\\data.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp3.1": {
+      "dependencies": {
+        "Autofac": {
+          "target": "Package",
+          "version": "[6.2.0, )"
+        },
+        "Autofac.Extensions.DependencyInjection": {
+          "target": "Package",
+          "version": "[7.1.0, )"
+        },
+        "Microsoft.AspNetCore.Mvc.Core": {
+          "target": "Package",
+          "version": "[2.2.5, )"
+        }
+      },
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true,
+      "frameworkReferences": {
+        "Microsoft.AspNetCore.App": {
+          "privateAssets": "none"
+        },
+        "Microsoft.NETCore.App": {
+          "privateAssets": "all"
+        }
+      },
+      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+    }
+  }
+}

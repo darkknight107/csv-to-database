@@ -1,0 +1,14 @@
+A:\Projects\csvToDatabase\api\csvToDatabase\business\bin\Debug\netcoreapp3.1\business.deps.json
+A:\Projects\csvToDatabase\api\csvToDatabase\business\bin\Debug\netcoreapp3.1\business.dll
+A:\Projects\csvToDatabase\api\csvToDatabase\business\bin\Debug\netcoreapp3.1\business.pdb
+A:\Projects\csvToDatabase\api\csvToDatabase\business\bin\Debug\netcoreapp3.1\core.dll
+A:\Projects\csvToDatabase\api\csvToDatabase\business\bin\Debug\netcoreapp3.1\data.dll
+A:\Projects\csvToDatabase\api\csvToDatabase\business\bin\Debug\netcoreapp3.1\core.pdb
+A:\Projects\csvToDatabase\api\csvToDatabase\business\bin\Debug\netcoreapp3.1\data.pdb
+A:\Projects\csvToDatabase\api\csvToDatabase\business\obj\Debug\netcoreapp3.1\business.csprojAssemblyReference.cache
+A:\Projects\csvToDatabase\api\csvToDatabase\business\obj\Debug\netcoreapp3.1\business.AssemblyInfoInputs.cache
+A:\Projects\csvToDatabase\api\csvToDatabase\business\obj\Debug\netcoreapp3.1\business.AssemblyInfo.cs
+A:\Projects\csvToDatabase\api\csvToDatabase\business\obj\Debug\netcoreapp3.1\business.csproj.CoreCompileInputs.cache
+A:\Projects\csvToDatabase\api\csvToDatabase\business\obj\Debug\netcoreapp3.1\business.csproj.CopyComplete
+A:\Projects\csvToDatabase\api\csvToDatabase\business\obj\Debug\netcoreapp3.1\business.dll
+A:\Projects\csvToDatabase\api\csvToDatabase\business\obj\Debug\netcoreapp3.1\business.pdb
