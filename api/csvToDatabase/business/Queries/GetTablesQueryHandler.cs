@@ -8,7 +8,7 @@ using data;
 
 namespace business.Queries
 {
-    public class GetTablesQueryHandler : IQueryHandler<GetTablesQuery,List<Table>>
+    public class GetTablesQueryHandler : IQueryHandler<GetTablesQuery,List<string>>
     {
         private readonly IDbConnector<Table> _connector;
 
@@ -17,11 +17,11 @@ namespace business.Queries
             _connector = connector;
         }
         
-        public async Task<List<Table>> Handle(GetTablesQuery query, CancellationToken cancellationToken)
+        public async Task<List<string>> Handle(GetTablesQuery query, CancellationToken cancellationToken)
         {
             var specification = TableSpecifications.GetTables(query.Schema);
             var result = await _connector.Query(specification);
-            return result.ToList();
+            return result.Select(t => t.TableName).ToList();
         }
     }
 }

@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Autofac;
 using business.Entity;
 using business.Queries;
+using business.Services;
 using core;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -31,8 +32,10 @@ namespace csvToDatabase
         {
             services.AddControllers();
             services.AddScoped<ICqrsDispatcher, CqrsDispatcher>();
-            services.AddScoped<IQueryHandler<GetTablesQuery, List<Table>>, GetTablesQueryHandler>();
-            services.AddScoped<IQueryHandler<GetColumnsQuery, List<Column>>, GetColumnsQueryHandler>();
+            services.AddScoped<IQueryHandler<GetTablesQuery, List<string>>, GetTablesQueryHandler>();
+            services.AddScoped<IQueryHandler<GetColumnsQuery, List<string>>, GetColumnsQueryHandler>();
+            services.AddScoped<IQueryHandler<ExtractCsvHeadersQuery, List<string>>, ExtractCsvHeadersQueryHandler>();
+            services.AddScoped<ICsvParser<List<string>>, CsvFileParser>();
             AddCommandQueryHandlers(services, typeof(IQueryHandler<,>));
             AddCommandQueryHandlers(services, typeof(ICommandHandler<>));
             services.AddScoped(typeof(IDbConnector<>), typeof(DapperConnector<>));

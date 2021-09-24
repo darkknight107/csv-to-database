@@ -8,7 +8,7 @@ using data;
 
 namespace business.Queries
 {
-    public class GetColumnsQueryHandler : IQueryHandler<GetColumnsQuery, List<Column>>
+    public class GetColumnsQueryHandler : IQueryHandler<GetColumnsQuery, List<string>>
     {
         private readonly IDbConnector<Column> _connector;
 
@@ -17,11 +17,11 @@ namespace business.Queries
             _connector = connector;
         }
         
-        public async Task<List<Column>> Handle(GetColumnsQuery query, CancellationToken cancellationToken)
+        public async Task<List<string>> Handle(GetColumnsQuery query, CancellationToken cancellationToken)
         {
             var specification = ColumnSpecifications.GetColumnsByTableName(query.SchemaName, query.TableName);
             var result = await _connector.Query(specification);
-            return result.ToList();
+            return result.Select(c => c.ColumnName).ToList();
         }
     }
 }

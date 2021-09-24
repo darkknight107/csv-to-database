@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Collections.Immutable;
 using System.Linq;
 using System.Threading;
@@ -29,7 +30,7 @@ namespace api
             {
                 Schema = schema
             };
-            var response = await _cqrsDispatcher.Query<GetTablesQuery, List<Table>>(query, cancellationToken);
+            var response = await _cqrsDispatcher.Query<GetTablesQuery, List<string>>(query, cancellationToken);
             return Ok(response);
         }
 
@@ -43,8 +44,15 @@ namespace api
                 SchemaName = schema,
                 TableName = table
             };
-            var response = await _cqrsDispatcher.Query<GetColumnsQuery, List<Column>>(query, cancellationToken);
+            var response = await _cqrsDispatcher.Query<GetColumnsQuery, List<string>>(query, cancellationToken);
             return Ok(response);
+        }
+
+        [HttpPost]
+        [Route("table/entry")]
+        public async Task<IActionResult> PostEntry(TableEntry tableEntry)
+        {
+            throw new NotImplementedException();
         }
     }
 }

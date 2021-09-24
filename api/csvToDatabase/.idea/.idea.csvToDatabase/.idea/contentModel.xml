@@ -5,7 +5,9 @@
       <e p="api" t="IncludeRecursive">
         <e p="api.csproj" t="IncludeRecursive" />
         <e p="bin" t="ExcludeRecursive" />
+        <e p="CsvController.cs" t="Include" />
         <e p="DbController.cs" t="Include" />
+        <e p="FileController.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
@@ -17,10 +19,15 @@
       <e p="business" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="business.csproj" t="IncludeRecursive" />
+        <e p="Commands" t="Include">
+          <e p="PostCsvToTableCommand.cs" t="Include" />
+          <e p="PostCsvToTableCommandHandler.cs" t="Include" />
+        </e>
         <e p="Entity" t="Include">
           <e p="Column.cs" t="Include" />
           <e p="Product.cs" t="Include" />
           <e p="Table.cs" t="Include" />
+          <e p="TableEntry.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -30,10 +37,17 @@
           </e>
         </e>
         <e p="Queries" t="Include">
+          <e p="ExtractCsvHeadersQuery.cs" t="Include" />
+          <e p="ExtractCsvHeadersQueryHandler.cs" t="Include" />
           <e p="GetColumnsQuery.cs" t="Include" />
           <e p="GetColumnsQueryHandler.cs" t="Include" />
           <e p="GetTablesQuery.cs" t="Include" />
           <e p="GetTablesQueryHandler.cs" t="Include" />
+        </e>
+        <e p="Services" t="Include">
+          <e p="CsvFileParser.cs" t="Include" />
+          <e p="ICsvParser.cs" t="Include" />
+          <e p="IFileParser.cs" t="Include" />
         </e>
       </e>
       <e p="Core" t="IncludeRecursive">
