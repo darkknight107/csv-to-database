@@ -2,8 +2,10 @@
 using System.Collections.Generic;
 using System.Collections.Immutable;
 using System.Linq;
+using System.Net;
 using System.Threading;
 using System.Threading.Tasks;
+using business.Commands;
 using business.Entity;
 using business.Queries;
 using core;
@@ -50,9 +52,10 @@ namespace api
 
         [HttpPost]
         [Route("table/entry")]
-        public async Task<IActionResult> PostEntry(TableEntry tableEntry)
+        public async Task<IActionResult> PostEntry(PostCsvToTableCommand command, CancellationToken cancellationToken = default)
         {
-            throw new NotImplementedException();
+            await _cqrsDispatcher.Execute(command, cancellationToken);
+            return NoContent();
         }
     }
 }

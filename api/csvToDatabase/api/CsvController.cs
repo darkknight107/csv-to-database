@@ -17,7 +17,7 @@ namespace api
         
         [Route("extract-header")]
         [HttpPost]
-        public async Task<IActionResult> Extract(IFormFile file, CancellationToken cancellationToken)
+        public async Task<IActionResult> Extract(IFormFile file, CancellationToken cancellationToken = default)
         {
             var query = new ExtractCsvHeadersQuery
             {

@@ -27,7 +27,6 @@
           <e p="Column.cs" t="Include" />
           <e p="Product.cs" t="Include" />
           <e p="Table.cs" t="Include" />
-          <e p="TableEntry.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">

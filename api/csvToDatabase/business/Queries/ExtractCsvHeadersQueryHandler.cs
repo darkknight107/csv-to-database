@@ -22,7 +22,7 @@ namespace business.Queries
             var stream = new MemoryStream();
             await query.File.CopyToAsync(stream, cancellationToken);
             var fileByte = stream.ToArray();
-            var rows = _csvParser.ParseAsync(fileByte);
+            var rows = _csvParser.Parse(fileByte);
             return rows.FirstOrDefault();
         }
     }

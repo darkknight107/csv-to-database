@@ -7,7 +7,7 @@ namespace business.Services
 {
     public class CsvFileParser : ICsvParser<List<string>>
     {
-        public List<List<string>> ParseAsync(byte[] file)
+        public List<List<string>> Parse(byte[] file)
         {
             var data = Encoding.Default.GetString(file);
             var  csvLine= data.Split(Environment.NewLine);

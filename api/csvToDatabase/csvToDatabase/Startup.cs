@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Autofac;
+using business.Commands;
 using business.Entity;
 using business.Queries;
 using business.Services;
@@ -36,6 +37,7 @@ namespace csvToDatabase
             services.AddScoped<IQueryHandler<GetColumnsQuery, List<string>>, GetColumnsQueryHandler>();
             services.AddScoped<IQueryHandler<ExtractCsvHeadersQuery, List<string>>, ExtractCsvHeadersQueryHandler>();
             services.AddScoped<ICsvParser<List<string>>, CsvFileParser>();
+            services.AddScoped<ICommandHandler<PostCsvToTableCommand>, PostCsvToTableCommandHandler>();
             AddCommandQueryHandlers(services, typeof(IQueryHandler<,>));
             AddCommandQueryHandlers(services, typeof(ICommandHandler<>));
             services.AddScoped(typeof(IDbConnector<>), typeof(DapperConnector<>));
