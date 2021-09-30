@@ -14,5 +14,6 @@ namespace business.Commands
 
         public  IFormFile CsvFile { get; set; }
         
+        
     }
 }

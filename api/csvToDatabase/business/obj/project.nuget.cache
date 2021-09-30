@@ -1,12 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "aGoXCJQgLhfh+FuOL4j/5sN+n3p0r4V/KCFsrrSuXgci0g+g7FXfLTh8lifcmWhunX+YN/EQlL9UKfDrh1b8Dw==",
+  "dgSpecHash": "NW/bpaC+hPQpQTRnjeKLPfx761m77/uvBM/hfMaO7gal6BwFadQdzZMgwfaonBID8a3/PzuJj9zsBNMnPBNzEw==",
   "success": true,
   "projectFilePath": "A:\\Projects\\csvToDatabase\\api\\csvToDatabase\\business\\business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\shiri\\.nuget\\packages\\autofac\\6.2.0\\autofac.6.2.0.nupkg.sha512",
     "C:\\Users\\shiri\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.1.0\\autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",
     "C:\\Users\\shiri\\.nuget\\packages\\dapper\\2.0.90\\dapper.2.0.90.nupkg.sha512",
+    "C:\\Users\\shiri\\.nuget\\packages\\fluentvalidation\\10.3.3\\fluentvalidation.10.3.3.nupkg.sha512",
+    "C:\\Users\\shiri\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.3.3\\fluentvalidation.aspnetcore.10.3.3.nupkg.sha512",
+    "C:\\Users\\shiri\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\10.3.3\\fluentvalidation.dependencyinjectionextensions.10.3.3.nupkg.sha512",
     "C:\\Users\\shiri\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\2.2.0\\microsoft.extensions.configuration.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\shiri\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512",
     "C:\\Users\\shiri\\.nuget\\packages\\microsoft.extensions.primitives\\2.2.0\\microsoft.extensions.primitives.2.2.0.nupkg.sha512",

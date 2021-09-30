@@ -25,6 +25,7 @@
         </e>
         <e p="Entity" t="Include">
           <e p="Column.cs" t="Include" />
+          <e p="InsertMultipleEntries.cs" t="Include" />
           <e p="Product.cs" t="Include" />
           <e p="Table.cs" t="Include" />
         </e>
@@ -47,6 +48,9 @@
           <e p="CsvFileParser.cs" t="Include" />
           <e p="ICsvParser.cs" t="Include" />
           <e p="IFileParser.cs" t="Include" />
+          <e p="InsertMultipleSpecificationBuilder.cs" t="Include" />
+          <e p="ISpecificationBuilder.cs" t="Include" />
+          <e p="StringBuilder.cs" t="Include" />
         </e>
       </e>
       <e p="Core" t="IncludeRecursive">
