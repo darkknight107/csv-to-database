@@ -58,7 +58,7 @@
         <e p="Command.cs" t="Include" />
         <e p="Core.csproj" t="IncludeRecursive" />
         <e p="CqrsDispatcher.cs" t="Include" />
-        <e p="DapperConnector.cs" t="Include" />
+        <e p="DbConnector.cs" t="Include" />
         <e p="Entity.cs" t="Include" />
         <e p="ICommandHandler.cs" t="Include" />
         <e p="ICqrsDispatcher.cs" t="Include" />
@@ -106,6 +106,7 @@
             </e>
           </e>
         </e>
+        <e p="Specification.cs" t="Include" />
         <e p="Tables.GetSpecification.cs" t="Include" />
         <e p="TableSpecifications.cs" t="Include" />
       </e>

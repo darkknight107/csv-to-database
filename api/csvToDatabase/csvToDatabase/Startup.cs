@@ -42,7 +42,7 @@ namespace csvToDatabase
             services.AddScoped<ISpecificationBuilder<InsertMultipleEntries>, InsertMultipleSpecificationBuilder>();
             AddCommandQueryHandlers(services, typeof(IQueryHandler<,>));
             AddCommandQueryHandlers(services, typeof(ICommandHandler<>));
-            services.AddScoped(typeof(IDbConnector<>), typeof(DapperConnector<>));
+            services.AddScoped(typeof(IDbConnector<>), typeof(DbConnector<>));
         }
 
         private static void AddCommandQueryHandlers(IServiceCollection services, Type handlerInterface)

@@ -3,7 +3,9 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using business.Entity;
+using core;
 using Dapper;
+using data;
 
 namespace business.Services
 {
@@ -18,36 +20,34 @@ namespace business.Services
             _builder = builder;
         }
 
-        public async Task<string> Build(InsertMultipleEntries entries)
+        public ISpecification Build(InsertMultipleEntries entries)
         {
             var columnNames = entries.Values[0].Keys.ToList();
-            var insertHeaderBuilder = await _builder.BuildCommaSeparatedString(columnNames);
+            var insertHeaderBuilder = _builder.BuildCommaSeparatedString(columnNames);
 
-            var values = await  BuildValuesInQuery(entries);
+            var values = BuildValuesInQuery(entries);
             
-            var baseInsertCommand = @$"INSERT INTO @TableName({insertHeaderBuilder})
+            var baseInsertCommand = @$"INSERT INTO {entries.SchemaName}.{entries.TableName}({insertHeaderBuilder})
                                        VALUES {values}";
-            return baseInsertCommand;
+            return new Specification(baseInsertCommand);
         }
 
-        private async Task<string> BuildValuesInQuery(InsertMultipleEntries entries)
+        private string BuildValuesInQuery(InsertMultipleEntries entries)
         {
             var values = "";
             var numberOfValues = entries.Values.Count;
 
-            await Task.Run(() =>
-            {
-                foreach (var value in entries.Values)
-                {
-                    if (entries.Values.IndexOf(value) == numberOfValues)
-                    {
-                        values += $"({_builder.BuildCommaSeparatedString(value.Values.ToList())})";
-                        continue;
-                    }
-
-                    values += $"({_builder.BuildCommaSeparatedString(value.Values.ToList())}), ";
+           
+            foreach (var value in entries.Values)
+            { 
+                if (entries.Values.IndexOf(value) == numberOfValues - 1) 
+                { 
+                    values += $"({_builder.BuildCommaSeparatedString(value.Values.ToList())})";
+                    continue; 
                 }
-            });
+                values += $"({_builder.BuildCommaSeparatedString(value.Values.ToList())}), ";
+            }
+          
             return values;
         }
     }

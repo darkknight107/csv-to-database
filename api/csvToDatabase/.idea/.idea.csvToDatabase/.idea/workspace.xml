@@ -23,71 +23,64 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="730a275a-c6a8-4cf0-aff0-a78b05b44c23" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/business/Entity/InsertMultipleEntries.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/business/Services/ISpecificationBuilder.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/business/Services/InsertMultipleSpecificationBuilder.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/business/Services/StringBuilder.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Specification.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.csvToDatabase/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.csvToDatabase/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.csvToDatabase/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.csvToDatabase/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/DbController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/api/DbController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/api/api.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/bin/Debug/netcoreapp3.1/api.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/api/bin/Debug/netcoreapp3.1/api.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/bin/Debug/netcoreapp3.1/api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/api/bin/Debug/netcoreapp3.1/api.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/bin/Debug/netcoreapp3.1/api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/api/bin/Debug/netcoreapp3.1/api.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/bin/Debug/netcoreapp3.1/business.dll" beforeDir="false" afterPath="$PROJECT_DIR$/api/bin/Debug/netcoreapp3.1/business.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/bin/Debug/netcoreapp3.1/business.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/api/bin/Debug/netcoreapp3.1/business.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/obj/Debug/netcoreapp3.1/api.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/api/obj/Debug/netcoreapp3.1/api.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/obj/Debug/netcoreapp3.1/api.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/api/obj/Debug/netcoreapp3.1/api.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/bin/Debug/netcoreapp3.1/core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/api/bin/Debug/netcoreapp3.1/core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/bin/Debug/netcoreapp3.1/core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/api/bin/Debug/netcoreapp3.1/core.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/bin/Debug/netcoreapp3.1/data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/api/bin/Debug/netcoreapp3.1/data.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/bin/Debug/netcoreapp3.1/data.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/api/bin/Debug/netcoreapp3.1/data.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/obj/Debug/netcoreapp3.1/api.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/api/obj/Debug/netcoreapp3.1/api.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/obj/Debug/netcoreapp3.1/api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/api/obj/Debug/netcoreapp3.1/api.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/obj/Debug/netcoreapp3.1/api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/api/obj/Debug/netcoreapp3.1/api.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/obj/api.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/api/obj/api.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/obj/api.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/api/obj/api.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/api/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/api/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/api/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/api/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/Commands/PostCsvToTableCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/business/Commands/PostCsvToTableCommand.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/business/Commands/PostCsvToTableCommandHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/business/Commands/PostCsvToTableCommandHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/Services/CsvFileParser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/business/Services/CsvFileParser.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/bin/Debug/netcoreapp3.1/business.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/business/bin/Debug/netcoreapp3.1/business.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/Entity/InsertMultipleEntries.cs" beforeDir="false" afterPath="$PROJECT_DIR$/business/Entity/InsertMultipleEntries.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/Services/ISpecificationBuilder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/business/Services/ISpecificationBuilder.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/Services/InsertMultipleSpecificationBuilder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/business/Services/InsertMultipleSpecificationBuilder.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/Services/StringBuilder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/business/Services/StringBuilder.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/business/bin/Debug/netcoreapp3.1/business.dll" beforeDir="false" afterPath="$PROJECT_DIR$/business/bin/Debug/netcoreapp3.1/business.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/business/bin/Debug/netcoreapp3.1/business.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/business/bin/Debug/netcoreapp3.1/business.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/business.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/business/business.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/obj/Debug/netcoreapp3.1/business.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/business/obj/Debug/netcoreapp3.1/business.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/bin/Debug/netcoreapp3.1/core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/business/bin/Debug/netcoreapp3.1/core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/bin/Debug/netcoreapp3.1/core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/business/bin/Debug/netcoreapp3.1/core.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/bin/Debug/netcoreapp3.1/data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/business/bin/Debug/netcoreapp3.1/data.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/bin/Debug/netcoreapp3.1/data.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/business/bin/Debug/netcoreapp3.1/data.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/business/obj/Debug/netcoreapp3.1/business.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/business/obj/Debug/netcoreapp3.1/business.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/business/obj/Debug/netcoreapp3.1/business.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/business/obj/Debug/netcoreapp3.1/business.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/business/obj/Debug/netcoreapp3.1/business.dll" beforeDir="false" afterPath="$PROJECT_DIR$/business/obj/Debug/netcoreapp3.1/business.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/business/obj/Debug/netcoreapp3.1/business.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/business/obj/Debug/netcoreapp3.1/business.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/obj/business.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/business/obj/business.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/business/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/business/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/business/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/business/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/DapperConnector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/core/DbConnector.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/bin/Debug/netcoreapp3.1/core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/core/bin/Debug/netcoreapp3.1/core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/bin/Debug/netcoreapp3.1/core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/core/bin/Debug/netcoreapp3.1/core.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/obj/Debug/netcoreapp3.1/core.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/core/obj/Debug/netcoreapp3.1/core.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/obj/Debug/netcoreapp3.1/core.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/core/obj/Debug/netcoreapp3.1/core.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/obj/Debug/netcoreapp3.1/core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/core/obj/Debug/netcoreapp3.1/core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/obj/Debug/netcoreapp3.1/core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/core/obj/Debug/netcoreapp3.1/core.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/csvToDatabase/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/csvToDatabase/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/csvToDatabase/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll" beforeDir="false" afterPath="$PROJECT_DIR$/csvToDatabase/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/csvToDatabase/bin/Debug/netcoreapp3.1/api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/csvToDatabase/bin/Debug/netcoreapp3.1/api.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/csvToDatabase/bin/Debug/netcoreapp3.1/api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/csvToDatabase/bin/Debug/netcoreapp3.1/api.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/csvToDatabase/bin/Debug/netcoreapp3.1/business.dll" beforeDir="false" afterPath="$PROJECT_DIR$/csvToDatabase/bin/Debug/netcoreapp3.1/business.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/csvToDatabase/bin/Debug/netcoreapp3.1/business.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/csvToDatabase/bin/Debug/netcoreapp3.1/business.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/csvToDatabase/bin/Debug/netcoreapp3.1/csvToDatabase.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/csvToDatabase/bin/Debug/netcoreapp3.1/csvToDatabase.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csvToDatabase/bin/Debug/netcoreapp3.1/core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/csvToDatabase/bin/Debug/netcoreapp3.1/core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csvToDatabase/bin/Debug/netcoreapp3.1/core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/csvToDatabase/bin/Debug/netcoreapp3.1/core.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/csvToDatabase/bin/Debug/netcoreapp3.1/csvToDatabase.dll" beforeDir="false" afterPath="$PROJECT_DIR$/csvToDatabase/bin/Debug/netcoreapp3.1/csvToDatabase.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/csvToDatabase/bin/Debug/netcoreapp3.1/csvToDatabase.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/csvToDatabase/bin/Debug/netcoreapp3.1/csvToDatabase.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/csvToDatabase/obj/Debug/netcoreapp3.1/csvToDatabase.MvcApplicationPartsAssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/csvToDatabase/obj/Debug/netcoreapp3.1/csvToDatabase.MvcApplicationPartsAssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/csvToDatabase/obj/Debug/netcoreapp3.1/csvToDatabase.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/csvToDatabase/obj/Debug/netcoreapp3.1/csvToDatabase.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/csvToDatabase/obj/Debug/netcoreapp3.1/csvToDatabase.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/csvToDatabase/obj/Debug/netcoreapp3.1/csvToDatabase.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/csvToDatabase/obj/Debug/netcoreapp3.1/csvToDatabase.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/csvToDatabase/obj/Debug/netcoreapp3.1/csvToDatabase.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csvToDatabase/bin/Debug/netcoreapp3.1/data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/csvToDatabase/bin/Debug/netcoreapp3.1/data.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csvToDatabase/bin/Debug/netcoreapp3.1/data.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/csvToDatabase/bin/Debug/netcoreapp3.1/data.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/csvToDatabase/obj/Debug/netcoreapp3.1/csvToDatabase.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/csvToDatabase/obj/Debug/netcoreapp3.1/csvToDatabase.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/csvToDatabase/obj/Debug/netcoreapp3.1/csvToDatabase.dll" beforeDir="false" afterPath="$PROJECT_DIR$/csvToDatabase/obj/Debug/netcoreapp3.1/csvToDatabase.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/csvToDatabase/obj/Debug/netcoreapp3.1/csvToDatabase.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/csvToDatabase/obj/Debug/netcoreapp3.1/csvToDatabase.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/csvToDatabase/obj/csvToDatabase.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/csvToDatabase/obj/csvToDatabase.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/csvToDatabase/obj/csvToDatabase.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/csvToDatabase/obj/csvToDatabase.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/csvToDatabase/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/csvToDatabase/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/csvToDatabase/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/csvToDatabase/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/csvToDatabase/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/csvToDatabase/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bin/Debug/netcoreapp3.1/core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/data/bin/Debug/netcoreapp3.1/core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bin/Debug/netcoreapp3.1/core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/data/bin/Debug/netcoreapp3.1/core.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bin/Debug/netcoreapp3.1/data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/data/bin/Debug/netcoreapp3.1/data.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bin/Debug/netcoreapp3.1/data.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/data/bin/Debug/netcoreapp3.1/data.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/obj/Debug/netcoreapp3.1/data.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/data/obj/Debug/netcoreapp3.1/data.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/obj/Debug/netcoreapp3.1/data.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/data/obj/Debug/netcoreapp3.1/data.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/data/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/obj/Debug/netcoreapp3.1/data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/data/obj/Debug/netcoreapp3.1/data.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/obj/Debug/netcoreapp3.1/data.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/data/obj/Debug/netcoreapp3.1/data.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,8 +105,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/csvToDatabase/appsettings.json" />
-        <option value="$PROJECT_DIR$/csvToDatabase/Hey.cs" />
         <option value="$PROJECT_DIR$/core/IDapperConnector.cs" />
         <option value="$PROJECT_DIR$/core/Specification.cs" />
         <option value="$PROJECT_DIR$/core/ISpecification.cs" />
@@ -152,13 +143,15 @@
         <option value="$PROJECT_DIR$/business/Entity/TableEntry.cs" />
         <option value="$PROJECT_DIR$/business/Validators/TableHeaderValidator.cs" />
         <option value="$PROJECT_DIR$/business/Services/CsvFileParser.cs" />
-        <option value="$PROJECT_DIR$/business/Commands/PostCsvToTableCommand.cs" />
         <option value="$PROJECT_DIR$/api/DbController.cs" />
         <option value="$PROJECT_DIR$/business/Services/IStringBuilder.cs" />
-        <option value="$PROJECT_DIR$/business/Services/StringBuilder.cs" />
         <option value="$PROJECT_DIR$/data/InsertSpecification.cs" />
         <option value="$PROJECT_DIR$/data/InsertMultipleSpecificationBuilder.cs" />
         <option value="$PROJECT_DIR$/csvToDatabase/Startup.cs" />
+        <option value="$PROJECT_DIR$/business/Commands/PostCsvToTableCommand.cs" />
+        <option value="$PROJECT_DIR$/data/Specification.cs" />
+        <option value="$PROJECT_DIR$/core/DbConnector.cs" />
+        <option value="$PROJECT_DIR$/business/Services/StringBuilder.cs" />
         <option value="$PROJECT_DIR$/business/Services/ISpecificationBuilder.cs" />
         <option value="$PROJECT_DIR$/business/Entity/InsertMultipleEntries.cs" />
         <option value="$PROJECT_DIR$/business/Services/InsertMultipleSpecificationBuilder.cs" />
@@ -176,8 +169,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.8764897" />
-    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.95178765" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.875" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.95089287" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -233,7 +226,7 @@
       <workItem from="1631622567061" duration="1967000" />
       <workItem from="1632023015554" duration="11498000" />
       <workItem from="1632125886933" duration="13350000" />
-      <workItem from="1632485139680" duration="20279000" />
+      <workItem from="1632485139680" duration="25132000" />
     </task>
     <servers />
   </component>
@@ -267,90 +260,90 @@
     </state>
     <state x="528" y="272" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1/0.0.1536.824@0.0.1536.824" timestamp="1631101473476" />
     <state x="660" y="343" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1/0.0.1920.1040@0.0.1920.1040" timestamp="1632994666444" />
-    <state width="472" height="368" key="DebuggerActiveHint" timestamp="1632531444074">
+    <state width="472" height="368" key="DebuggerActiveHint" timestamp="1633093643031">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="472" height="368" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1632531444074" />
+    <state width="472" height="368" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1633093643031" />
     <state width="590" height="464" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1632030084939" />
-    <state width="1493" height="392" key="GridCell.Tab.0.bottom" timestamp="1632827586857">
+    <state width="746" height="207" key="GridCell.Tab.0.bottom" timestamp="1633093973818">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="392" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1632827586857" />
+    <state width="746" height="207" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1633093973818" />
     <state width="1877" height="74" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1632561560100" />
-    <state width="1493" height="392" key="GridCell.Tab.0.center" timestamp="1632827586857">
+    <state width="746" height="207" key="GridCell.Tab.0.center" timestamp="1633093973817">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="392" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1632827586857" />
+    <state width="746" height="207" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1633093973817" />
     <state width="1877" height="74" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1632561560100" />
-    <state width="1493" height="392" key="GridCell.Tab.0.left" timestamp="1632827586857">
+    <state width="746" height="207" key="GridCell.Tab.0.left" timestamp="1633093973817">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="392" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1632827586857" />
+    <state width="746" height="207" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1633093973817" />
     <state width="1877" height="74" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1632561560100" />
-    <state width="1493" height="392" key="GridCell.Tab.0.right" timestamp="1632827586857">
+    <state width="746" height="207" key="GridCell.Tab.0.right" timestamp="1633093973817">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="392" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1632827586857" />
+    <state width="746" height="207" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1633093973817" />
     <state width="1877" height="74" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1632561560100" />
-    <state width="1493" height="392" key="GridCell.Tab.1.bottom" timestamp="1632827586857">
+    <state width="746" height="207" key="GridCell.Tab.1.bottom" timestamp="1633093980892">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="392" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1632827586857" />
+    <state width="746" height="207" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1633093980892" />
     <state width="1877" height="78" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1632561559860" />
-    <state width="1493" height="392" key="GridCell.Tab.1.center" timestamp="1632827586857">
+    <state width="746" height="207" key="GridCell.Tab.1.center" timestamp="1633093980892">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="392" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1632827586857" />
+    <state width="746" height="207" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1633093980892" />
     <state width="1877" height="78" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1632561559860" />
-    <state width="1493" height="392" key="GridCell.Tab.1.left" timestamp="1632827586857">
+    <state width="746" height="207" key="GridCell.Tab.1.left" timestamp="1633093980892">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="392" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1632827586857" />
+    <state width="746" height="207" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1633093980892" />
     <state width="1877" height="78" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1632561559860" />
-    <state width="1493" height="392" key="GridCell.Tab.1.right" timestamp="1632827586857">
+    <state width="746" height="207" key="GridCell.Tab.1.right" timestamp="1633093980892">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="392" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1632827586857" />
+    <state width="746" height="207" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1633093980892" />
     <state width="1877" height="78" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1632561559860" />
-    <state width="1493" height="392" key="GridCell.Tab.2.bottom" timestamp="1632827586857">
+    <state width="746" height="207" key="GridCell.Tab.2.bottom" timestamp="1633093973586">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="392" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1632827586857" />
+    <state width="746" height="207" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1633093973586" />
     <state width="1877" height="78" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1632561559860" />
-    <state width="1493" height="392" key="GridCell.Tab.2.center" timestamp="1632827586857">
+    <state width="746" height="207" key="GridCell.Tab.2.center" timestamp="1633093973586">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="392" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1632827586857" />
+    <state width="746" height="207" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1633093973586" />
     <state width="1877" height="78" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1632561559860" />
-    <state width="1493" height="392" key="GridCell.Tab.2.left" timestamp="1632827586857">
+    <state width="746" height="207" key="GridCell.Tab.2.left" timestamp="1633093973586">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="392" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1632827586857" />
+    <state width="746" height="207" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1633093973586" />
     <state width="1877" height="78" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1632561559860" />
-    <state width="1493" height="392" key="GridCell.Tab.2.right" timestamp="1632827586857">
+    <state width="746" height="207" key="GridCell.Tab.2.right" timestamp="1633093973586">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="392" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1632827586857" />
+    <state width="746" height="207" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1633093973586" />
     <state width="1877" height="78" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1632561559860" />
-    <state width="1493" height="392" key="GridCell.Tab.3.bottom" timestamp="1632827586862">
+    <state width="746" height="207" key="GridCell.Tab.3.bottom" timestamp="1633093973586">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="392" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1632827586862" />
+    <state width="746" height="207" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1633093973586" />
     <state width="1877" height="78" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1632561559861" />
-    <state width="1493" height="392" key="GridCell.Tab.3.center" timestamp="1632827586862">
+    <state width="746" height="207" key="GridCell.Tab.3.center" timestamp="1633093973586">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="392" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1632827586862" />
+    <state width="746" height="207" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1633093973586" />
     <state width="1877" height="78" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1632561559861" />
-    <state width="1493" height="392" key="GridCell.Tab.3.left" timestamp="1632827586862">
+    <state width="746" height="207" key="GridCell.Tab.3.left" timestamp="1633093973586">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="392" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1632827586862" />
+    <state width="746" height="207" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1633093973586" />
     <state width="1877" height="78" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1632561559860" />
-    <state width="1493" height="392" key="GridCell.Tab.3.right" timestamp="1632827586862">
+    <state width="746" height="207" key="GridCell.Tab.3.right" timestamp="1633093973586">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="392" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1632827586862" />
+    <state width="746" height="207" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1633093973586" />
     <state width="1877" height="78" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1632561559861" />
     <state x="553" y="252" key="Rider.ProjectTemplateDialog.Size" timestamp="1632023393197">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -363,10 +356,10 @@
     </state>
     <state x="2714" y="221" key="RiderGenerateDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1630148891706" />
     <state x="635" y="175" key="RiderGenerateDialog/0.0.1536.824@0.0.1536.824" timestamp="1632308942440" />
-    <state width="775" height="419" key="XDebugger.FullValuePopup" timestamp="1632488247773">
+    <state width="775" height="419" key="XDebugger.FullValuePopup" timestamp="1633094360832">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="775" height="419" key="XDebugger.FullValuePopup/0.0.1536.824@0.0.1536.824" timestamp="1632488247773" />
+    <state width="775" height="419" key="XDebugger.FullValuePopup/0.0.1536.824@0.0.1536.824" timestamp="1633094360832" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1632531697823">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -377,16 +370,81 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/business/Commands/PostCsvToTableCommandHandler.cs</url>
-          <line>40</line>
-          <properties documentPath="A:\Projects\csvToDatabase\api\csvToDatabase\business\Commands\PostCsvToTableCommandHandler.cs" initialLine="37">
+          <line>46</line>
+          <properties documentPath="A:\Projects\csvToDatabase\api\csvToDatabase\business\Commands\PostCsvToTableCommandHandler.cs" initialLine="45">
             <startOffsets>
-              <option value="1527" />
+              <option value="1788" />
             </startOffsets>
             <endOffsets>
-              <option value="1528" />
+              <option value="1828" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="11" />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/business/Services/InsertMultipleSpecificationBuilder.cs</url>
+          <line>31</line>
+          <properties documentPath="A:\Projects\csvToDatabase\api\csvToDatabase\business\Services\InsertMultipleSpecificationBuilder.cs" initialLine="31">
+            <startOffsets>
+              <option value="969" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1013" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/business/Commands/PostCsvToTableCommandHandler.cs</url>
+          <line>35</line>
+          <properties documentPath="A:\Projects\csvToDatabase\api\csvToDatabase\business\Commands\PostCsvToTableCommandHandler.cs" initialLine="35">
+            <startOffsets>
+              <option value="1397" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1451" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/business/Commands/PostCsvToTableCommandHandler.cs</url>
+          <line>58</line>
+          <properties documentPath="A:\Projects\csvToDatabase\api\csvToDatabase\business\Commands\PostCsvToTableCommandHandler.cs" initialLine="57">
+            <startOffsets>
+              <option value="2176" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2207" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/business/Commands/PostCsvToTableCommandHandler.cs</url>
+          <line>65</line>
+          <properties documentPath="A:\Projects\csvToDatabase\api\csvToDatabase\business\Commands\PostCsvToTableCommandHandler.cs" initialLine="59">
+            <startOffsets>
+              <option value="2368" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2456" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/business/Commands/PostCsvToTableCommandHandler.cs</url>
+          <line>62</line>
+          <properties documentPath="A:\Projects\csvToDatabase\api\csvToDatabase\business\Commands\PostCsvToTableCommandHandler.cs" initialLine="61">
+            <startOffsets>
+              <option value="2307" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2316" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

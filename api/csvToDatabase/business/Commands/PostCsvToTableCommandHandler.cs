@@ -15,12 +15,14 @@ namespace business.Commands
     {
         private readonly IFileParser<List<string>> _fileParser;
         private readonly ISpecificationBuilder<InsertMultipleEntries> _insertMultipleEntriesSpecBuilder;
+        private readonly IDbConnector<InsertMultipleEntries> _dbConnector;
 
         public PostCsvToTableCommandHandler(ICsvParser<List<string>> fileParser,
-            ISpecificationBuilder<InsertMultipleEntries> insertMultipleEntriesSpecBuilder)
+            ISpecificationBuilder<InsertMultipleEntries> insertMultipleEntriesSpecBuilder, IDbConnector<InsertMultipleEntries> dbConnector)
         {
             _fileParser = fileParser;
             _insertMultipleEntriesSpecBuilder = insertMultipleEntriesSpecBuilder;
+            _dbConnector = dbConnector;
         }
         
         public async Task Handle(PostCsvToTableCommand command, CancellationToken cancellationToken)
@@ -31,16 +33,45 @@ namespace business.Commands
             var fileByte = stream.ToArray();
             var rows = _fileParser.Parse(fileByte);
             
-            rows[0] = translateHeader(rows[0], command.FieldMaps);
-
+            rows[0] = TranslateHeader(rows[0], command.FieldMaps);
+            
             var entries = new InsertMultipleEntries
             {
-                TableName = command.TableName
-                //TODO Add Entry Values by translating from above parsed values to list of dictionary.
+                SchemaName = command.SchemaName,
+                TableName = command.TableName,
+                Values = BuildInsertRequest(rows)
             };
+
+            var specification = _insertMultipleEntriesSpecBuilder.Build(entries);
+
+            await _dbConnector.Query(specification);
         }
 
-        private List<string> translateHeader(List<string> headers, Dictionary<string, string> mappings)
+        private static List<Dictionary<string, string>> BuildInsertRequest(List<List<string>> parsedData)
+        {
+            var headers = parsedData[0];
+            
+            //remove the header from the data 
+            parsedData.RemoveAt(0);
+
+            var mappedData = new List<Dictionary<string, string>>();
+
+            foreach (var row in parsedData)
+            {
+                if (row.Count < headers.Count)
+                {
+                    continue;
+                }
+                
+                var mappedRow = headers.Zip(row, (k, v) => new {k, v}).ToDictionary(x => x.k, x => x.v);
+                
+                mappedData.Add(mappedRow);
+            }
+
+            return mappedData;
+        }
+
+        private static List<string> TranslateHeader(List<string> headers, Dictionary<string, string> mappings)
         {
             return  headers.Select(header => header.Replace(header, mappings[header])).ToList() ;
         }

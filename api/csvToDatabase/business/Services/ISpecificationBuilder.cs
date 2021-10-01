@@ -1,10 +1,11 @@
 ﻿using System.Threading;
 using System.Threading.Tasks;
+using core;
 
 namespace business.Services
 {
     public interface ISpecificationBuilder<T>
     {
-        Task<string> Build(T entries);
+        ISpecification Build(T entries);
     }
 }
