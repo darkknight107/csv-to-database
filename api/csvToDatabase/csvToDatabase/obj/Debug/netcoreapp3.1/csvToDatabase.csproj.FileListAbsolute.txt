@@ -36,3 +36,6 @@ A:\Projects\csvToDatabase\api\csvToDatabase\csvToDatabase\obj\Debug\netcoreapp3.
 A:\Projects\csvToDatabase\api\csvToDatabase\csvToDatabase\bin\Debug\netcoreapp3.1\Autofac.dll
 A:\Projects\csvToDatabase\api\csvToDatabase\csvToDatabase\bin\Debug\netcoreapp3.1\Autofac.Extensions.DependencyInjection.dll
 A:\Projects\csvToDatabase\api\csvToDatabase\csvToDatabase\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+A:\Projects\csvToDatabase\api\csvToDatabase\csvToDatabase\bin\Debug\netcoreapp3.1\FluentValidation.dll
+A:\Projects\csvToDatabase\api\csvToDatabase\csvToDatabase\bin\Debug\netcoreapp3.1\FluentValidation.AspNetCore.dll
+A:\Projects\csvToDatabase\api\csvToDatabase\csvToDatabase\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll

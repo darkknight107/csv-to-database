@@ -52,6 +52,14 @@
             "Autofac.Extensions.DependencyInjection": {
               "target": "Package",
               "version": "[7.1.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[10.3.3, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[10.3.3, )"
             }
           },
           "imports": [

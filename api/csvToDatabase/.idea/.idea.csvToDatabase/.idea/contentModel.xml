@@ -25,6 +25,7 @@
         </e>
         <e p="Entity" t="Include">
           <e p="Column.cs" t="Include" />
+          <e p="InsertMultipleEntries.cs" t="Include" />
           <e p="Product.cs" t="Include" />
           <e p="Table.cs" t="Include" />
         </e>
@@ -47,6 +48,9 @@
           <e p="CsvFileParser.cs" t="Include" />
           <e p="ICsvParser.cs" t="Include" />
           <e p="IFileParser.cs" t="Include" />
+          <e p="InsertMultipleSpecificationBuilder.cs" t="Include" />
+          <e p="ISpecificationBuilder.cs" t="Include" />
+          <e p="StringBuilder.cs" t="Include" />
         </e>
       </e>
       <e p="Core" t="IncludeRecursive">
@@ -54,7 +58,7 @@
         <e p="Command.cs" t="Include" />
         <e p="Core.csproj" t="IncludeRecursive" />
         <e p="CqrsDispatcher.cs" t="Include" />
-        <e p="DapperConnector.cs" t="Include" />
+        <e p="DbConnector.cs" t="Include" />
         <e p="Entity.cs" t="Include" />
         <e p="ICommandHandler.cs" t="Include" />
         <e p="ICqrsDispatcher.cs" t="Include" />
@@ -102,6 +106,7 @@
             </e>
           </e>
         </e>
+        <e p="Specification.cs" t="Include" />
         <e p="Tables.GetSpecification.cs" t="Include" />
         <e p="TableSpecifications.cs" t="Include" />
       </e>

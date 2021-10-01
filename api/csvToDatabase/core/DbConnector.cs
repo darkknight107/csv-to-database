@@ -7,14 +7,14 @@ using Npgsql;
 
 namespace core
 {
-    public class DapperConnector<TEntity> : IDbConnector<TEntity>
+    public class DbConnector<TEntity> : IDbConnector<TEntity>
     {
         private readonly IConfiguration _configuration;
         private readonly string _connectionString;
         private readonly NpgsqlConnection _connection;
         private Dictionary<string, object> _dynamicParametersDictionary;
 
-        public DapperConnector(IConfiguration configuration)
+        public DbConnector(IConfiguration configuration)
         {
             _configuration = configuration;
             _connectionString = _configuration["ConnectionStrings:DefaultConnection"];
